@@ -2,7 +2,6 @@ class Application
  
   def call(env)
     resp = Rack::Response.new
- binding.pry
     currentTime = Kernel.rand(1..20)
     num_2 = Kernel.rand(1..20)
     num_3 = Kernel.rand(1..20)
